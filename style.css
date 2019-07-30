@@ -1,0 +1,45 @@
+body{
+    width:90%;
+    margin-left:5%;
+}
+
+p{
+    font-family: Butler, Bentham, serif;
+    color:#8a3a88;
+    letter-spacing: 2px;
+}
+
+h1{
+    font-size:50px;
+    margin-bottom:5px;
+}
+
+section{
+    border-bottom: 3px solid black;
+    padding-bottom: 10px;
+    margin-top: 5px;
+    margin-bottom: 3px;
+}
+
+.story{
+    margin:auto;
+    width:50%;
+    border-bottom: none;
+}
+
+footer{
+    margin-top:5px;
+}
+
+table{
+    caption-side: bottom;
+    border:2px solid black;
+}
+
+blockquote{
+    font-size: 160%;
+    background-color:#dae3dc;
+    border-left: dashed 3px;
+    padding-left:30px;
+}
+
