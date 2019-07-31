@@ -1,6 +1,13 @@
 body{
     width:90%;
     margin-left:5%;
+    background: linear-gradient(-180deg, rgb(246, 170, 120), rgb(248, 233, 164));
+    font-family: 'Open Sans', sans-serif;
+
+    /*background-image: url("./img/background.jpg");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: cover;*/
 }
 
 p{
@@ -21,10 +28,10 @@ section{
     margin-bottom: 3px;
 }
 
-.story{
-    margin:auto;
-    width:50%;
-    border-bottom: none;
+#preamble{
+    border-bottom: 0px;
+    height: 200px;
+    padding-top:65px;
 }
 
 footer{
@@ -37,9 +44,65 @@ table{
 }
 
 blockquote{
-    font-size: 160%;
-    background-color:#dae3dc;
-    border-left: dashed 3px;
-    padding-left:30px;
+    width:50%;
+    margin: auto;
 }
+
+q{
+    display: block;
+    background-color:#dae3dc;
+    border-left: 3px dashed;
+    font-size:160%;
+    padding-left:30px;
+    margin: 80px auto 80px auto;
+    box-shadow: 10px 10px 5px grey;
+    font-style: italic;
+}
+
+.neighbor{
+    border-color: crimson;
+}
+
+.farmer{
+    border-color: olive;
+}
+
+header:first-child{
+    color:orangered;
+}
+
+.bad{
+    text-transform: capitalize;
+    color: red;
+}
+
+.good{
+    text-transform: capitalize;
+    color:darkgreen;
+}
+
+tr:nth-child(even) {background: #CCC}
+tr:nth-child(odd) {background: #FFF}
+
+p:first-of-type{
+    font-weight:bold;
+}
+
+header img{
+    height: 250px;
+}
+
+header figure{
+   float:left;
+}
+
+#watts img{
+    position:fixed;
+    bottom: 5px;
+    right: 5px;
+    height: 120px;
+    border: 2px solid purple;
+}
+
+
 
